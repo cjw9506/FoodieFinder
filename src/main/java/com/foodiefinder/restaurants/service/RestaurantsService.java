@@ -40,6 +40,8 @@ public class RestaurantsService {
     }
 
     public Response<List<RestaurantDetailResponse>> getRestaurants(String lat, String lon, double range, String orderBy) {
+
+        //test
         double latitude = Double.parseDouble(lat);
         double longitude = Double.parseDouble(lon);
 
